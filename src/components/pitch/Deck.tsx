@@ -192,6 +192,38 @@ const Deck = () => {
           </div>
         </div>
       )
+    },
+    {
+      title: "Credits & Legal",
+      content: (
+        <div className="bg-blue-50 p-6 rounded-lg">
+          <div className="grid grid-cols-2 gap-6">
+            <div className="bg-white p-4 rounded-lg shadow">
+              <h4 className="font-semibold text-blue-800 mb-4">Project Team</h4>
+              <div className="space-y-2">
+                <p className="text-sm text-gray-600">Proposal prepared by Dice Media Group</p>
+              </div>
+            </div>
+            <div className="bg-white p-4 rounded-lg shadow">
+              <h4 className="font-semibold text-blue-800 mb-4">Legal Notice</h4>
+              <div className="space-y-2 text-sm text-gray-600">
+                <p>© 2025 Dice Media Group. All rights reserved.</p>
+                <p>This presentation is confidential and proprietary.</p>
+                <p>All financial projections are estimates based on current market conditions.</p>
+                <p>
+                  This proposal is valid for 30 days from the date of issue.
+                </p>
+                <p>
+                  Dice Media Group, LLC (Dice) is a registered business in the state of Utah. Dice will provide the initial development of the Utah Business Directory Platform, but will not be responsible for the actions or inactions of the contractors of the sponsored project.
+                </p>
+                <p>
+                  UtahDNA.xyz is a project owned and operated by Dice Media Group, LLC. All rights reserved.    While Dice Media Group commits to exercising best efforts in providing accurate and up-to-date data for the Utah Business Directory Platform, we cannot guarantee the absolute accuracy of all information. Users should independently verify critical business information.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      )
     }
   ];
 
